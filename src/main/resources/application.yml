@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: s3test
+
+  cloud:
+    aws:
+      credentials:
+        access-key: ${ACCESS_KEY}
+        secret-key: ${SECRET_KEY}
+      region:
+        static: ap-northeast-2
+      s3:
+        bucket: my-bucket-20251224
